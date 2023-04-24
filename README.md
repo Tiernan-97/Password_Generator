@@ -42,7 +42,8 @@ I first created constants containing all of the different character types availa
 ## Links
 
 GitHub Repo: https://github.com/Tiernan-97/Password_Generator
+
 Live Webpage: https://tiernan-97.github.io/Password_Generator
 
 ## Screenshot
-<img href="./PassGenScreenShot.png" alt="Password Generator Screenshot">
+<img href="./PassGenScreenShot.png" alt="Password Generator Screenshot"/>
