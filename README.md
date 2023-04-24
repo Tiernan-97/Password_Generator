@@ -34,67 +34,15 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-## Mock-Up
 
-The following image shows the web application's appearance and functionality:
+## Method
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
+I first created constants containing all of the different character types available: special characters, numbers, lowercase letters and uppercase letters. I then initialised variables for the selecting of the character types. I then created prompts and confirmation to allow the user to select the character types they would like in their password, making sure to add in special conditions such as making sure the password is of a certain length and also making sure the user has selected at least one character type. The password variable is then created and also the constant of available characters as selected by the user. I then made it so that if the user had selected character types, they would be enetered into the array of available characters. Finally, I created a for loop that takes a varaible "i" from 0 to the length of the password which selects a random character from the list of available characters and enters it into the password.
 
-## Grading Requirements
+## Links
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+GitHub Repo: https://github.com/Tiernan-97/Password_Generator
+Live Webpage: https://tiernan-97.github.io/Password_Generator
 
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Screenshot
+<img href="./PassGenScreenShot.png" alt="Password Generator Screenshot">
